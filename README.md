@@ -53,10 +53,9 @@ ii)	Create Schematic Cell view.
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
 ~~~
+![Screenshot (206)](https://github.com/user-attachments/assets/229a97e4-7f9f-4874-8be7-501223be6c8f)
 
-![WhatsApp Image 2025-03-07 at 10 45 18_677df8e0](https://github.com/user-attachments/assets/e8640a38-0a2c-41e7-bdeb-94c6bdc4ce6e)
-
- iii)	Creating the Symbol for schematic Cell view
+iii)	Creating the Symbol for schematic Cell view
  ~~~
 •	In the schematic window, execute 
 	Create – Cell view – From Cell view
