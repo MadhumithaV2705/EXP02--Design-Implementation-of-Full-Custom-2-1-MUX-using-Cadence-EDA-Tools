@@ -1,21 +1,24 @@
-# EXP02--Design-Implementation-of-Full-Custom-2-1-MUX-using-Cadence-EDA-Tools
-Experiment -2 
-Aim:
+# EXP: 02 DESIGN AND IMPLEMENTATION OF FULL CUSTOM 2-1 MUX USING CADENCE EDA TOOLS
+
+# AIM:
 To design and implement a 2:1 multiplexer (MUX) circuit using Cadence EDA tools, analyse its functionality and performance, and understand the principles of digital logic design, including schematic creation, layout design, and simulation.
-Tools Required:
+
+# TOOLS REQUIRED:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
-S C H E M A T I C S I M U L A T I O N
-PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
-Commands to get into Cadence
+# SCHEMATIC SIMULATION:
+# PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION
+# Commands to get into Cadence
+~~~
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
-•	virtuoso 
-Procedure for Schematic simulation using Cadence
-
+•	virtuoso
+~~~
+# Procedure for Schematic simulation using Cadence
+~~~
 1.	Now two windows must open i)virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
 3.	Use 1st window i.e virtuoso window(CIW) for further processing.
@@ -24,14 +27,17 @@ ii.	Create Schematic Cell view.
 iii.	Create the Symbol for schematic Cell view.
 iv.	Create the test Cell view.
 v.	Analog simulation by spectre
-
+~~~
 
 i)	Procedure for Creating New Library.
+~~~
 •	File –New – Library
 •	Name : Give name for ur library Ex: VLSILAB_EXP_1
 •	Enable Attach to an existing technology library, Click OK
 •	Attach the library to the technology library gpdk045.Click OK
+~~~
 ii)	Create Schematic Cell view.
+~~~
 •	Go to 1st window i.e virtuoso(CIW)
 •	File-New-Cell view
 •	Setup the new file form
@@ -46,11 +52,12 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
+~~~
+
 ![WhatsApp Image 2025-03-07 at 10 45 18_677df8e0](https://github.com/user-attachments/assets/e8640a38-0a2c-41e7-bdeb-94c6bdc4ce6e)
 
-
-
  iii)	Creating the Symbol for schematic Cell view
+ ~~~
 •	In the schematic window, execute 
 	Create – Cell view – From Cell view
 	The cell view from cell view window appears
@@ -62,11 +69,12 @@ ii)	Create Schematic Cell view.
 •	Library Name and Cell Name must be same which you have used for schematic. Press OK
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
-
+~~~
  ![image](https://github.com/user-attachments/assets/ca09de2d-ba22-415f-a189-26893cdcc446)
 
 
 iv)	Creating the new test cell view
+~~~
 •	Go to CIW window, Execute File-New-Cell view
 	Setup the new file form
 	Library: Select the one you created.
@@ -74,9 +82,11 @@ iv)	Creating the new test cell view
 	View: Schematic
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
+~~~
  ![image](https://github.com/user-attachments/assets/85b7456e-1902-4ac2-8291-6ae6035dd0a2)
 
-Analog simulation by SPECTRE.
+# ANALOG SIMULATION BY SPECTRE.
+~~~
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -86,9 +96,10 @@ Analog simulation by SPECTRE.
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
+~~~
  ![image](https://github.com/user-attachments/assets/92eae130-d124-4f8b-a4b5-0040f418f193)
 
-For Transient Analysis Settings and Output
+# FOR TRANSIENT ANALYSIS SETTINGS AND OUTPUT:
  ![image](https://github.com/user-attachments/assets/47f7be45-4763-4d32-9eae-c417d1b7d501)
 ![WhatsApp Image 2025-03-07 at 10 45 29_fd21f70d](https://github.com/user-attachments/assets/8d70d64d-87b2-4026-98ce-3ced745a48be)
 
