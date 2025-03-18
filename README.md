@@ -100,12 +100,8 @@ iv)	Creating the new test cell view
 
 # FOR TRANSIENT ANALYSIS SETTINGS AND OUTPUT:
  ![image](https://github.com/user-attachments/assets/47f7be45-4763-4d32-9eae-c417d1b7d501)
-![WhatsApp Image 2025-03-07 at 10 45 29_fd21f70d](https://github.com/user-attachments/assets/8d70d64d-87b2-4026-98ce-3ced745a48be)
+![Screenshot (205)](https://github.com/user-attachments/assets/0ed9dc87-dfdf-456b-a3dc-7fe9dfbb3a98)
 
-
-
-
- 
-Results:
+# RESULT:
 1.	The experiment successfully demonstrated the design and implementation of a 2:1 MUX using Cadence EDA tools. 
 2.	The successful verification through schematic, layout, and simulation underscores the effectiveness of using Cadence EDA tools for digital circuit design.
